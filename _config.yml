@@ -7,18 +7,18 @@ doks:
             text: Bancor Developers
             image: logo.png
         nav:
-            - item_name: Item 1
+            - item_name: Documentation
               item_url: '#'
-            - item_name: Item 2
+            - item_name: Tutorials
               item_url: '#'
-            - item_name: Item 3
+            - item_name: Libraries
               item_url: '#'
     footer:
         content:
             logo:
-                text: Project name
+                text: Bancor Developers
                 image:
-            copyright: Copyright &copy; 2017. - Project name <br>All rights reserved.
+            copyright: Copyright &copy; 2018. - Bancor Network <br>All rights reserved.
         social_list:
             - network_name: facebook
               profile_url: '#'

@@ -1,6 +1,6 @@
 /**
  * Site header (components/_site-header.scss)
- */
+*/
 
 /* ----- General ----- */
 .site-header {
@@ -28,8 +28,10 @@
 	}
 
 	img {
-		height: auto;
+		width: 150px;
+		margin: 24px auto;
 	}
+
 }
 
 /* ----- Navigation ----- */
@@ -41,7 +43,7 @@
 
 	li {
 		+ li {
-			margin-left: 2.5rem;
+			margin-left: 3.5rem;
 		}
 	}
 
@@ -52,7 +54,6 @@
 		font-weight: 500;
 		font-family: $font-family-secondary;
 		line-height: calc(5.625rem - 1px);
-		text-transform: uppercase;
 		border-bottom: 1px solid;
 		border-color: transparent;
 		transition: border-color .2s;

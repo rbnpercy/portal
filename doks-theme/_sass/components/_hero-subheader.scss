@@ -22,17 +22,17 @@
 	}
 
 	.site-header + & {
-		padding: 30px 0 (4.6875rem - 1.25rem) 0;
+		padding: 150px 0 (4.6875rem - 1.25rem) 0;
 
 		@media (min-width: $screen-sm-min) {
-			padding: 15rem 0 (10.3125rem - 1.25rem) 0;
+			padding: 150px 0 (10.3125rem - 1.25rem) 0;
 		}
 	}
 }
 
 .hero-subheader--before-out {
 	@media (min-width: $screen-sm-min) {
-		padding: 30px 0 (15.3125rem - 1.25rem) 0;
+		padding: 150px 0 (15.3125rem - 1.25rem) 0;
 	}
 }
 

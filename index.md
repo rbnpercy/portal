@@ -4,7 +4,7 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Bancor Developers
+title: Bancor Developer Centre
 description: Project description
 buttons:
     - content: Button
@@ -28,4 +28,14 @@ grid_navigation:
       excerpt: Section description
       cta: Read more
       url: '#'
+
+    - title: Grid navigation
+      excerpt: Section description
+      cta: Read more
+      url: '#'
+
+    - title: Grid navigation
+      excerpt: Section description
+      cta: Read more
+      url: '#'     
 ---
