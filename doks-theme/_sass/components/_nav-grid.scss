@@ -67,6 +67,23 @@
 	border: 0;
 }
 
+.latest-tuts__title {
+	display: block;
+	font-size: $font-size-h5;
+	font-weight: 500;
+	padding: 0;
+	margin-top: 0;
+	border: 0;
+}
+
+#latestTuts {
+	margin-top: 100px;
+
+	@media (max-width: $screen-md-min) {
+		margin-top: 0px;
+	}
+}
+
 /* ----- Read more ----- */
 .nav-grid__btn {
 	font-family: $font-family-secondary;

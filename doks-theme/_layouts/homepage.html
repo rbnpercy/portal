@@ -3,7 +3,7 @@
 	<head>
 		{% include site-head.html %}
 	</head>
-	<body class="{{ site.doks.color_theme }}">
+	<body class="{{ site.doks.color_theme }} Home">
 
 		{% include site-header.html %}
 
@@ -90,6 +90,38 @@
 				</div><!-- /.container -->
 			</div><!-- /.section -->
 		{% endif %}
+
+		<h1 class="container">Latest Articles &amp; Tutorials</h1>
+
+		{% if page.latest_tuts %}
+			<div id="latestTuts" class="section section--darker-theme-color-bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="nav-grid nav-grid--out">
+								<div class="row">
+									{% for item in page.latest_tuts %}
+										<div class="col-sm-6 col-lg-4">
+											<a href="{% if jekyll.environment == 'production' %}{{ site.doks.baseurl }}{% endif %}{{ item.url }}" class="nav-grid__item">
+												<div class="nav-grid__content" data-mh>
+													<h3 class="latest-tuts__title">{{ item.title }}</h2>
+													<p>{{ item.excerpt }}</p>
+												</div><!-- /.nav-grid__content -->
+												<p class="nav-grid__btn">
+													{{ item.cta }}
+													<i class="icon icon--arrow-right"></i>
+												</p>
+											</a><!-- /.nav-grid__item -->
+										</div><!-- /.col -->
+									{% endfor %}
+								</div><!-- /.row -->
+							</div><!-- /.nav-grid -->
+						</div><!-- /.col -->
+					</div><!-- /.row -->
+				</div><!-- /.container -->
+			</div><!-- /.section -->
+		{% endif %}
+
 		{% include site-footer.html %}
 	</body>
 </html>

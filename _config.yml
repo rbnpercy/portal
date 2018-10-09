@@ -7,7 +7,7 @@ doks:
             text: Bancor Developers
             image: logo.png
         nav:
-            - item_name: Documentation
+            - item_name: API Documentation
               item_url: '#'
             - item_name: Tutorials
               item_url: '#'

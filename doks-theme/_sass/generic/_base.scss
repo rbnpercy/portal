@@ -22,6 +22,10 @@ body {
 	line-height: $line-height-base;
 }
 
+body.Home {
+	background-color: #d7f5ff;
+}
+
 /* ----- Everything ----- */
 * {
 	&,
@@ -54,7 +58,6 @@ h6, .h6 {
 
 h1, .h1 {
 	font-size: $font-size-h1;
-	font-weight: 700;
 }
 
 h2, .h2 {
